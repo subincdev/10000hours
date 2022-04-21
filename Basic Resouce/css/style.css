@@ -1,0 +1,110 @@
+:root {
+  --main: #5b2386;
+  --point: #fcee21;
+  --white: #fff;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Gmarket Sans";
+  font-size: 10px;
+  background-color: var(--main);
+}
+
+#app {
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 12rem;
+}
+
+.tit-app {
+  background: no-repeat center url("../img/clock.png");
+  padding: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-tit {
+  max-width: 56.4rem;
+}
+
+.cont-visible {
+  margin-top: 4.6rem;
+}
+
+.txt-subtitle {
+  font-family: "OTEnjoystoriesBA";
+  font-style: normal;
+  font-size: 3.6rem;
+  line-height: 4rem;
+  color: var(--point);
+}
+
+.txt-quotation {
+  display: block;
+  margin: 7.8rem auto 0;
+  font-family: "Gmarket Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+  color: var(--white);
+}
+
+.txt-quotation {
+  background: no-repeat center 2rem url("../img/quotes.png");
+}
+
+.txt-em {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
+
+.cont-inp {
+  font-family: "GmarketSansMedium";
+  margin-top: 10.2rem;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  color: var(--white);
+}
+
+.inp-txt {
+  width: 15rem;
+  padding: 1rem 4rem 1rem;
+  font-size: 23px;
+  line-height: 24px;
+  border-radius: 7px;
+  border: none;
+}
+
+.inp-txt::placeholder {
+  /* font-weight: 400; */
+  /* font-size: 24px; */
+  /* line-height: normal; */
+  /* line-height: 30px; */
+  color: #babcbe;
+}
+
+/* .inp-num {
+  width: 15rem;
+  padding: 1rem 4rem 1rem;
+  font-size: 14px;
+  /* line-height: 24px; 
+  border-radius: 7px;
+  border: none;
+}
+*/
+/*
+.inp-num::placeholder {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  line-height: normal;
+  color: #babcbe;
+} */
